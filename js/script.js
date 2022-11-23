@@ -1,7 +1,7 @@
 let selectedRow = null
 let tbody = document.querySelector('tbody')
 let form = document.querySelector('form')
-let url = 'http://127.0.0.1:80/api'
+let url = 'http://127.0.0.1:8000/api'
 
 // 畫面先渲染一次
 render()
